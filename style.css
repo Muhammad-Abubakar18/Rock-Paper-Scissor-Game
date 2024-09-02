@@ -1,0 +1,312 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+
+    border: 4px solid black;
+
+
+}
+
+main {
+
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+body {
+    height: 900px;
+    background: linear-gradient(to bottom, rgb(32, 58, 88), grey);
+}
+
+nav {
+    background-color: azure;
+    box-shadow: 3px, 3px, 5px rgba(223, 143, 143, 0.473);
+    background: linear-gradient(50deg, rgb(164, 156, 177), rgb(105, 206, 201));
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 50px;
+    padding: 10px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+nav a:hover {
+    background: linear-gradient(to bottom, black, grey);
+    color: #f7f7f7;
+}
+
+nav li:first-child {
+    margin-right: auto;
+
+
+}
+
+h1 {
+    margin-top: 2rem;
+
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.choices {
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.choice {
+
+    height: 105px;
+    width: 105px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+
+    height: 100px;
+    width: 100px;
+
+
+}
+
+img:hover {
+    opacity: 0.8;
+
+}
+
+.choice:hover {
+
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+}
+
+#rock,
+#paper,
+#scissor {
+    rotate: -90deg;
+
+    display: flex;
+
+}
+
+.score-board {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    font-size: 25px;
+    margin-left: 1rem;
+
+}
+
+.usercomp {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    font-size: 25px;
+    margin-left: 1rem;
+
+}
+
+#msg {
+    display: inline;
+    background-color: aqua;
+    border-radius: 10px 100px / 120px;
+    font-size: 35px;
+    margin-top: 2rem;
+}
+
+.msg-box {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#rest {
+    display: inline;
+    background-color: rgba(255, 0, 0, 0.685);
+    border-radius: 10px 100px / 120px;
+    font-size: 25px;
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+.rest-box {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.resultcard {
+    /* background-color: blue; */
+    width: 100%;
+    height: 230px;
+    display: flex;
+    gap: 50px;
+    ;
+    justify-content: center;
+}
+
+.userresult {
+    /* background-color: rgb(0, 0, 5); */
+    width: 30%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    justify-content: center;
+}
+
+.compresult {
+    /* background-color: rgb(0, 0, 5); */
+    width: 30%;
+    height: 230px;
+    display: flex;
+    color: beige;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    height: 350px;
+
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: left;
+    background: transparent;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.sub {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #b8985c;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.sub:hover {
+    background-color: #d4a31c;
+}
+
+.sub:active {
+    background-color: #a07b45;
+}
+
+.feedback_mail {
+    position: relative;
+
+    display: flex;
+
+    background: transparent;
+}
+
+.via_mail {
+
+    font-weight: bold;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1047px) {
+
+
+    body {
+
+        background: linear-gradient(to bottom, rgb(32, 58, 88), grey);
+        height: 190vh;
+
+
+    }
+
+    .form {
+        height: 355px;
+    }
+
+    main {
+        flex-wrap: wrap;
+        height: 130vh;
+    }
+
+}

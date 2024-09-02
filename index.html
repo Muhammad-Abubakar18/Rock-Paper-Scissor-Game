@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="game.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+    <header>  <nav>
+        <ul>
+            <li><a href="https://azure-halli-41.tiiny.site" target="_blank">Muhammad Aubakar</a></li>
+            <li><a href="https://github.com/Muhammad-Abubakar18" target="_blank">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/muhammad-abubakar-5846922b0/" target="_blank">Linkedin</a></li>
+        </ul>
+    </nav></header>
+    <main> 
+ 
+        <div class="game">
+
+            <h1>Rock Paper Scissor Game</h1>
+            <div class="resultcard">
+                
+                <div class="userresult" id="UC-result" style="rotate: -90deg;">
+                    <img src="image.png" alt="pic" id="image">
+                </div>
+                <div class="compresult" id="DC-result">
+                    <img src="image.png" alt="pic" id="image2" style="rotate: -90deg;">
+                </div>
+            </div>
+            <div class="usercomp">
+                <span id="ur-move">Your's move</span>
+                <span id="com-move">Computer's move</span>
+            </div>
+            <div class="score-board">
+                <div class="user-score">
+                    <span id="ur_s">0</span>
+                    <p>Yours Score</p>
+                </div>
+                <div class="comp-score">
+                    <span id="comp_s">0</span>
+                    <p>Computer's Score</p>
+                </div>
+            </div>
+            <div class="choices">
+                <div class="choice" id="paper">
+                    <img src="paper.png" alt="paper pic">
+                </div>
+                <div class="choice" id="rock">
+                    <img src="rock.png" alt="rock pic">
+                </div>
+                <div class="choice" id="scissor">
+                    <img src="scissor.png" alt="scissor pic">
+                </div>
+                
+            </div>
+            
+            
+            <div class="msg-box">
+                <p id="msg">Play game</p>
+            </div>
+            <div class="rest-box">
+                <p id="rest">RESET-SCORE</p>
+            </div>
+        </div>
+        <div class="feedback_mail">
+            <form action="https://formspree.io/f/mzzpazjw" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" class="sub">Send</button>
+                <span class="via_mail">Send your Feedback of this 'Game' via mail</span>
+            </form>
+        </div>  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
